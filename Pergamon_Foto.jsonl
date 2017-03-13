@@ -1,2 +1,46 @@
-{"identifier": "PE07-So-01_037", "processor": "Ulrich Mania", "shortDescription": "Bedeckung von Brandbestattung 012", "id": "120239", "relations": {"depicts": "120022"}, "type": "image"}
-{"identifier": "PE07-So-01_042", "processor": "Ulrich Mania", "shortDescription": 
+{"identifier": "PE07-So-01_037", "filename": "PE07-So-01_037.jpg", "processor": "Ulrich Mania", "shortDescription": "Bedeckung von Brandbestattung 012", "id": "120239", "relations": {"depicts": "120022"}, "type": "image"}
+{"identifier": "PE07-So-01_042", "filename": "PE07-So-01_042.jpg", "processor": "Ulrich Mania", "shortDescription": "Grabbau 2 während der Freilegung von S", "id": "120243", "relations": {"depicts": "120041"}, "type": "image"}
+{"identifier": "PE07-So-01_070", "filename": "PE07-So-01_070.jpg", "processor": "Ulrich Mania", "shortDescription": "So 7 mit Versturz von Grabbau 2 während der Freilegung", "id": "120266", "relations": {"depicts": ["120060", "120067", "120104"]}, "type": "image"}
+{"identifier": "PE07-So-01_092", "filename": "PE07-So-01_092.jpg", "processor": "Ulrich Mania", "shortDescription": "Auswurf aus Grab 010 im Versturz des Grabbaus 2", "id": "120286", "relations": {"depicts": "120103"}, "type": "image"}
+{"identifier": "PE07-So-01_093", "filename": "PE07-So-01_093.jpg", "processor": "Ulrich Mania", "shortDescription": "So7 005", "id": "120287", "relations": {"depicts": "120103"}, "type": "image"}
+{"identifier": "PE07-So-01_097", "filename": "PE07-So-01_097.jpg", "processor": "Ulrich Mania", "shortDescription": "Brandbestattung in Verschüttung über Grabbau 2", "id": "120291", "relations": {"depicts": "120190"}, "type": "image"}
+{"identifier": "PE07-So-01_098", "filename": "PE07-So-01_098.jpg", "processor": "Ulrich Mania", "shortDescription": "So10 von NO", "id": "120292", "relations": {"depicts": ["120674", "120679"]}, "type": "image"}
+{"identifier": "PE07-So-01_099", "filename": "PE07-So-01_099.jpg", "processor": "Ulrich Mania", "shortDescription": "So10 von NO", "id": "120293", "relations": {"depicts": ["120674", "120680"]}, "type": "image"}
+{"identifier": "PE07-So-01_103", "filename": "PE07-So-01_103.jpg", "processor": "Ulrich Mania", "shortDescription": "Felsboden  w hinter Grabbau 2", "id": "120295", "relations": {"depicts": ["120153", "120116", "120121"]}, "type": "image"}
+{"identifier": "PE07-So-01_133", "filename": "PE07-So-01_133.jpg", "processor": "Ulrich Mania", "shortDescription": "Einfassung der Brandbestattung 012 und eine sich ö aschließende Felsrinne", "id": "120323", "relations": {"depicts": "120158"}, "type": "image"}
+{"identifier": "PE07-So-01_134", "filename": "PE07-So-01_134.jpg", "processor": "Ulrich Mania", "shortDescription": "Einfassung Brandbestattung 012 von oben", "id": "120324", "relations": {"depicts": "120158"}, "type": "image"}
+{"identifier": "PE07-So-01_142", "filename": "PE07-So-01_142.jpg", "processor": "Ulrich Mania", "shortDescription": "Grabbau 2 mit Grab von O", "id": "120332", "relations": {"depicts": ["120198", "120019", "120043", "120044"]}, "type": "image"}
+{"identifier": "PE07-So-01_147", "filename": "PE07-So-01_147.jpg", "processor": "Ulrich Mania", "shortDescription": "Brandbestattung 012 und ö anschließende Felsrinne", "id": "120337", "relations": {"depicts": ["120155", "120159"]}, "type": "image"}
+{"identifier": "PE07-So-01_148", "filename": "PE07-So-01_148.jpg", "processor": "Ulrich Mania", "shortDescription": "Einfassung der Brandbestattung 012 mit Kf.119 (Eisenklinge)", "id": "120338", "relations": {"depicts": ["120164", "120159"]}, "type": "image"}
+{"identifier": "PE07-So-01_172", "filename": "PE07-So-01_172.jpg", "processor": "Ulrich Mania", "shortDescription": "Grabbau 1 von N", "id": "120362", "relations": {"depicts": ["120197", "120019", "120155"]}, "type": "image"}
+{"identifier": "PE07-So-01_177", "filename": "PE07-So-01_177.jpg", "processor": "Ulrich Mania", "shortDescription": "Grabbau 2 von SW mit hangparalleler Mauer im N", "id": "120367", "relations": {"depicts": "120199"}, "type": "image"}
+{"identifier": "PE07-So-01_195", "filename": "PE07-So-01_195.jpg", "processor": "Ulrich Mania", "shortDescription": "Grabbau 3 in So 9 von W mit Grab 1 und 2 Endzustand", "id": "120382", "relations": {"depicts": ["120663", "120093", "120653"]}, "type": "image"}
+{"identifier": "PE07-So-01_242", "filename": "PE07-So-01_242.jpg", "processor": "Ulrich Mania", "shortDescription": "Grab 010 in Grabbau 2", "id": "120665", "relations": {"depicts": "120194"}, "type": "image"}
+{"identifier": "PE07-So-01_245", "filename": "PE07-So-01_245.jpg", "processor": "Ulrich Mania", "shortDescription": "Grabbau 2 von N", "id": "120669", "relations": {"depicts": ["120019", "120105"]}, "type": "image"}
+{"identifier": "PE07-So-01_246", "filename": "PE07-So-01_246.jpg", "processor": "Ulrich Mania", "shortDescription": "So7 004 bzw. 007", "id": "120670", "relations": {"depicts": ["120102", "120105"]}, "type": "image"}
+{"identifier": "PE07-So-01_273", "filename": "PE07-So-01_273.jpg", "processor": "Ulrich Mania", "shortDescription": "GraBbau3 mit Bezeichnungen der Gräber 1-3", "id": "31001", "relations": {"depicts": "120093"}, "type": "image"}
+{"identifier": "PE07-So-01_197", "filename": "PE07-So-01_197.jpg", "processor": "Ulrich Mania", "shortDescription": "Grabbau3, So9 von O", "id": "31002", "relations": {"depicts": "120093"}, "type": "image"}
+{"identifier": "PE07-So-01_090", "filename": "PE07-So-01_090.jpg", "processor": "Ulrich Mania", "shortDescription": "Grab von O ; Z 024 links im Bild", "id": "40538", "relations": {"depicts": ["40537", "40549", "120044"]}, "type": "image"}
+{"identifier": "PE07-So-01_031", "filename": "PE07-So-01_031.jpg", "processor": "Ulrich Mania", "shortDescription": "So 3 von NW  mit Rückwand von Grabbau 2 während der Ausgrabungen", "id": "40557", "relations": {"depicts": ["120014", "120020"]}, "type": "image"}
+{"identifier": "PE07-So-01_034", "filename": "PE07-So-01_034.jpg", "processor": "Ulrich Mania", "shortDescription": "So3 mit Grabbau2 von SO", "id": "40558", "relations": {"depicts": "120014"}, "type": "image"}
+{"identifier": "PE07-So-03-KF_001", "filename": "PE07-So-03-KF_001.jpg", "processor": "N.N.", "id": "41589", "relations": {"depicts": "31181"}, "type": "image"}
+{"identifier": "PE07-So-03-KF_002", "filename": "PE07-So-03-KF_002.jpg", "processor": "Arne Weiser", "id": "64572", "relations": {"depicts": "28155"}, "type": "image"}
+{"identifier": "PE07-So-03-KF_003", "filename": "PE07-So-03-KF_003.jpg", "processor": "Arne Weiser", "id": "64573", "relations": {"depicts": "28133"}, "type": "image"}
+{"identifier": "PE07-So-03-KF_004", "filename": "PE07-So-03-KF_004.jpg", "processor": "Arne Weiser", "id": "64574", "relations": {"depicts": "28133"}, "type": "image"}
+{"identifier": "PE07-So-03-KF_005", "filename": "PE07-So-03-KF_005.jpg", "processor": "Arne Weiser", "id": "64575", "relations": {"depicts": "31902"}, "type": "image"}
+{"identifier": "PE07-So-03-KF_006", "filename": "PE07-So-03-KF_006.jpg", "processor": "Arne Weiser", "id": "64576", "relations": {"depicts": "31902"}, "type": "image"}
+{"identifier": "PE07-So-03-KF_007", "filename": "PE07-So-03-KF_007.jpg", "processor": "Arne Weiser", "id": "64577", "relations": {"depicts": "31869"}, "type": "image"}
+{"identifier": "PE07-So-03-KF_011", "filename": "PE07-So-03-KF_011.jpg", "processor": "Arne Weiser", "id": "64581", "relations": {"depicts": "27941"}, "type": "image"}
+{"identifier": "PE09-Sy-01_495", "filename": "PE09-SY-01_495.jpg", "id": "79221", "relations": {"depicts": "77988"}, "type": "image"}
+{"identifier": "PE09-Sy-01_500", "filename": "PE09-SY-01_500.jpg", "id": "79227", "relations": {"depicts": "77991"}, "type": "image"}
+{"identifier": "PE07-So-07-OS_001", "filename": "PE07-So-07-OS_001.jpg", "shortDescription": "Individuum", "id": "166545", "relations": {"depicts": "120067"}, "type": "image"}
+{"identifier": "PE07-So-07-OS_002", "filename": "PE07-So-07-OS_002.jpg", "shortDescription": "Individuum", "id": "166546", "relations": {"depicts": "120105"}, "type": "image"}
+{"identifier": "PE07-So-03-OS_001", "filename": "PE07-So-03-OS_001.jpg", "shortDescription": "Individuum", "id": "166553", "relations": {"depicts": "120153"}, "type": "image"}
+{"identifier": "PE07-So-07-OS_003", "filename": "PE07-So-07-OS_003.jpg", "shortDescription": "weitere Knochen", "id": "166713", "relations": {"depicts": "120067"}, "type": "image"}
+{"identifier": "PE11_", "id": "166714", "relations": {"depicts": "120104"}, "type": "image"}
+{"identifier": "PE07-So-07-OS_006", "filename": "PE07-So-07-OS_006.jpg", "shortDescription": "Individuum", "id": "166715", "relations": {"depicts": "120194"}, "type": "image"}
+{"identifier": "PE11_", "id": "166789", "relations": {"depicts": "120014"}, "type": "image"}
+{"identifier": "PE07-So-03-OS_002", "filename": "PE07-So-03-OS_002.jpg", "shortDescription": "Individuum", "id": "166790", "relations": {"depicts": "120020"}, "type": "image"}
+{"identifier": "PE07-So-07-OS_007", "filename": "PE07-So-07-OS_007", "shortDescription": "Körperbestattung, eher männlich, 45-55J.", "id": "173882", "relations": {"depicts": "120194"}, "type": "image"}
+{"identifier": "PE07-So-07-OS_008", "filename": "PE07-So-07-OS_008", "shortDescription": "Körperbestattung weiblich, (35) 45-55 (75) J.", "id": "173972", "relations": {"depicts": "120194"}, "type": "image"}
+{"identifier": "PE07-So-07-OS_009", "filename": "PE07-So-07-OS_009", "id": "173975", "relations": {"depicts": "120194"}, "type": "image"}

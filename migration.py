@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import xmltodict
+import urllib
 import simplejson as json
 from codecs import open
 
@@ -10,6 +11,7 @@ attrMapping = {
     'Auto_Fotokennung':'identifier',
     'KurzbeschreibungFoto':'shortDescription',
     'Fotograf':'processor',
+    'Dateiname':'filename',
 }
 
 Befund = {
@@ -68,6 +70,7 @@ idaifieldFile = 'Pergamon_Foto.xml'
 geometryFile = 'Pergamon_Befund.geojson'
 outputFile = 'Pergamon_Foto.jsonl'
 datasetType = 'image'
+imageServer = 'http://bear-gulch-road.archaeologie.uni-koeln.de/images/Pergamon/Fotos/0040-0049/0042_PE07%20So%201-14.%2020%20(Nekropole)/'
 
 print('Read external xml data into a dictionary')
 with open(idaifieldFile, 'r', 'utf-8') as fd:
@@ -93,6 +96,9 @@ for key, value in datasets[1].items():
 
 print('Change values for keys in dictionary')
 for dataset in datasets:
+    # Download images from the Image WebServer
+#    if datasetType == 'image':
+#        urllib.urlretrieve(str(imageServer) + dataset['Dateiname'], dataset['Dateiname'])
     for key, value in dataset.items(): 
         if value is None:
             del dataset[key]
@@ -109,6 +115,8 @@ for dataset in datasets:
             del dataset[key]
         else:
             del dataset[key]
+
+
     dataset['type'] = datasetType
 #    dataset['geometries'] = [getGeom(dataset['identifier'])]
 
