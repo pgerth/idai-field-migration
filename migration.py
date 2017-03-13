@@ -1,10 +1,18 @@
 # -*- coding: utf-8 -*-
 
 import xmltodict
-import json
+import simplejson as json
 from codecs import open
 
 attrMapping = {
+    # Foto
+    'PS_FotoID':'id',
+    'Auto_Fotokennung':'identifier',
+    'KurzbeschreibungFoto':'shortDescription',
+    'Fotograf':'processor',
+}
+
+Befund = {
     # Befund
     'PS_BefundID':'identifier',
     'Auto_BefundKennung':'number',
@@ -50,15 +58,16 @@ Ausgrabung = {
 
 relationMapping = {
 #    'FS_BefundID':'isLocatedIn',
-    'FS_AusgrabungID':'belongsTo',
+#    'FS_AusgrabungID':'belongsTo',
 #    'PS_BefundID':'includes',
-    'PS_KeramikID':'embeds',
+#    'PS_KeramikID':'embeds',
+    'ObjektFoto':'depicts',
 }
 
-idaifieldFile = 'Pergamon_Befund.xml'
+idaifieldFile = 'Pergamon_Foto.xml'
 geometryFile = 'Pergamon_Befund.geojson'
-outputFile = 'Pergamon_Befund.jsonl'
-datasetType = 'context'
+outputFile = 'Pergamon_Foto.jsonl'
+datasetType = 'image'
 
 print('Read external xml data into a dictionary')
 with open(idaifieldFile, 'r', 'utf-8') as fd:
@@ -96,17 +105,17 @@ for dataset in datasets:
                 dataset['relations'][relationMapping[key]] = dataset[key]['DATA']
             del dataset[key]
         elif key in attrMapping.keys():
-            dataset[attrMapping[key]] = dataset[key]
+            dataset[attrMapping[key]] = dataset[key].encode("utf-8")
             del dataset[key]
         else:
             del dataset[key]
     dataset['type'] = datasetType
-    dataset['geometries'] = [getGeom(dataset['identifier'])]
+#    dataset['geometries'] = [getGeom(dataset['identifier'])]
 
 print('Create JSONL as external file')
 with open(outputFile, 'w', 'utf-8') as outfile:
     for entry in datasets:
-        json.dump(entry, outfile)
+        json.dump(entry, outfile, ensure_ascii=False, encoding="utf-8")
         outfile.write('\n')
 
 print('The following objects are not mapped to the target schema:')
